@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronometer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!--- <img src="https://media.istockphoto.com/photos/man-stopping-a-stopwatch-picture-id537320864" alt="">--->  
+    <img src="https://media.istockphoto.com/photos/stopwatch-picture-id537447158" alt="stopwatch">
+    <h1 id="title" >Chronometer </h1>
+    <div id="chronometer-holder">
+        <h2 id="timer" > Chronometer 0</h2>
+        <p id="minutes-holder"> </p>
+        <p id="seconds-holder" ></p>
+    </div>
+    <div id="buttons">
+        <button id="start" type="start" onclick="startTimer()" >Start</button>
+        <button id="stop"  type="stop" onclick="stopTimer()" >stop</button>
+        <button id="reset" type="reset" onclick="resetTimer()" >Reset</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
